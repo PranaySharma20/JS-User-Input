@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constraints for Password</title>
+</head>
+<body>
+    <script src="constraints.js"></script>
+   <b>Alpha Password:</b><input type="text" id="password" placeholder="Only Alphabets" oninput="strength()">
+    <span id="msg" style="display:none ;"></span>
+        <br>
+  <b>Num Password:</b><input type="text" id="password1" placeholder="Only Numbers"  oninput="strength()">
+    <span id="msg1" style="display:none ;"></span>
+        <br>
+        <button onclick="constraints()">Submit</button>
+    
+</body>
+</html>
